@@ -1,5 +1,4 @@
 import type { NextConfig } from "next";
-import path from "node:path";
 
 const nextConfig: NextConfig = {
   images: {
@@ -14,7 +13,6 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  outputFileTracingRoot: path.resolve(__dirname, '../../'),
   eslint: {
     ignoreDuringBuilds: false,
   },
@@ -24,6 +22,10 @@ const nextConfig: NextConfig = {
   experimental: {
     optimizePackageImports: ['lucide-react', '@radix-ui/react-icons'],
   },
+  // Ensure proper static generation
+  trailingSlash: false,
+  // Optimize for Vercel deployment
+  poweredByHeader: false,
 };
 
 export default nextConfig;
