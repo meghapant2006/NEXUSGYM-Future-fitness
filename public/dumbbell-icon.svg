@@ -1,0 +1,23 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dumbbellGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ef4444;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f97316;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Left Weight -->
+  <rect x="2" y="10" width="6" height="12" rx="1" fill="url(#dumbbellGradient)"/>
+  
+  <!-- Left Handle Connection -->
+  <rect x="8" y="13" width="3" height="6" fill="url(#dumbbellGradient)"/>
+  
+  <!-- Center Bar -->
+  <rect x="11" y="14" width="10" height="4" rx="2" fill="url(#dumbbellGradient)"/>
+  
+  <!-- Right Handle Connection -->
+  <rect x="21" y="13" width="3" height="6" fill="url(#dumbbellGradient)"/>
+  
+  <!-- Right Weight -->
+  <rect x="24" y="10" width="6" height="12" rx="1" fill="url(#dumbbellGradient)"/>
+</svg>
