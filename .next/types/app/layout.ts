@@ -1,4 +1,4 @@
-// File: D:\Practice\Fitness\src\app\layout.tsx
+// File: D:\Project\NEXUSGYM-Future-fitness\src\app\layout.tsx
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
